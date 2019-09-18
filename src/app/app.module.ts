@@ -63,6 +63,9 @@ import { SignupComponent } from './components/signup/signup.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { DestinosComponent } from './components/destinos/destinos.component';
 import { ActividadComponent } from './components/actividad/actividad.component';
+import { ToursComponent } from './components/tours/tours.component';
+import { FeaturesComponent } from './components/features/features.component';
+import { VitrinaComponent } from './components/vitrina/vitrina.component';
 
 
 
@@ -78,7 +81,10 @@ import { ActividadComponent } from './components/actividad/actividad.component';
     ConfirmEqualValidatorDirective,
     PrincipalComponent,
     DestinosComponent,
-    ActividadComponent
+    ActividadComponent,
+    ToursComponent,
+    FeaturesComponent,
+    VitrinaComponent
   ],
   imports: [
     BrowserModule,
