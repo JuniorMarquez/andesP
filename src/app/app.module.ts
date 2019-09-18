@@ -66,6 +66,7 @@ import { ActividadComponent } from './components/actividad/actividad.component';
 import { ToursComponent } from './components/tours/tours.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { VitrinaComponent } from './components/vitrina/vitrina.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -84,7 +85,8 @@ import { VitrinaComponent } from './components/vitrina/vitrina.component';
     ActividadComponent,
     ToursComponent,
     FeaturesComponent,
-    VitrinaComponent
+    VitrinaComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
