@@ -556,7 +556,7 @@ SLIDER - SECTION
 .section-slider[data-slider-parallax] .background-slider {
     position: fixed !important;
     z-index: -1;
-    opacity: 0;
+    /*opacity: 0;*/
     transition: none;
 }
 
