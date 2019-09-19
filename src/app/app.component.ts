@@ -3,6 +3,9 @@ import { Component } from '@angular/core';
 import { TixsService } from "./services/tixs.service";
 import { ProductInfoService } from "./services/product-info.service";
 
+//declare var $: any;
+
+
 
 
 @Component({

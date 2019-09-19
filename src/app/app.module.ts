@@ -7,6 +7,10 @@ import { HttpModule } from '@angular/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ArchwizardModule } from 'angular-archwizard';
 
+//declare var $: any;
+
+
+
 
 //RUTAS
 import { app_routing } from "./app.routes";       

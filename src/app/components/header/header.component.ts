@@ -9,7 +9,7 @@ import { isError } from 'util';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ConfirmEqualValidatorDirective } from '../../confirm-equal-validator.directive';
 
-declare var NgForm:any;
+
 
 
 @Component({
