@@ -71,6 +71,8 @@ import { ToursComponent } from './components/tours/tours.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { VitrinaComponent } from './components/vitrina/vitrina.component';
 import { AboutComponent } from './components/about/about.component';
+import { TreksComponent } from './components/treks/treks.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 
 
@@ -90,7 +92,9 @@ import { AboutComponent } from './components/about/about.component';
     ToursComponent,
     FeaturesComponent,
     VitrinaComponent,
-    AboutComponent
+    AboutComponent,
+    TreksComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
