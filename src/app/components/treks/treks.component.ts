@@ -10,6 +10,7 @@ export class TreksComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  $.getScript('assets/themekit/scripts/glide.min.js');
   }
 
 }

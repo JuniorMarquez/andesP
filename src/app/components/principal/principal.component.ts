@@ -10,6 +10,7 @@ export class PrincipalComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+   $.getScript('assets/themekit/scripts/glide.min.js');
   }
 
 }
