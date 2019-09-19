@@ -4,7 +4,7 @@
        <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default attr-border navbar-sticky bootsnav">
+        <nav class="navbar navbar-default attr-border navbar-sticky bootsnav" style="background-color: #000;">
 
            <div class="container">
 
@@ -12,7 +12,8 @@
                 <div class="attr-nav">
                     <ul>
                         <!-- <li class="search"><a href="index.html#"><i class="fa fa-search"></i></a></li> -->
-                        <li class="side-menu"><a href="index.html#"><i class="fa fa-bars"></i></a></li>
+                        <li class="side-menu">
+                            <a href="index.html#"><i class="fa fa-bars"></i></a></li>
                     </ul>
                 </div>        
            
@@ -25,31 +26,21 @@
                     </a>
                 </div>
          
-                <div class="collapse navbar-collapse" id="navbar-menu">
+                <div class="collapse navbar-collapse" id="navbar-menu" style="background:#000;">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                      
-                        <li class="dropdown">
-                            <a href="index.html#" class="dropdown-toggle active" data-toggle="dropdown" >Consultorio</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown">
-                                    <a href="about-2.html">Quienes somos</a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="services-2.html">Especialidades</a>
-                                </li>
-                            </ul>
+                        <li >
+                            <a routerLink="abaout" style="color: #fff;" >QUIENES SOMOS</a>
+                           
                         </li>
-                        <li class="dropdown">
-                            <a href="gallery-masonary-3-colum.html">Galeria</a>
+                        <li >
+                            <a routerLink=""  style="color: #fff;">DESTINOS</a>
                         </li>
-                        <li class="dropdown">
-                            <a href="blog-left-sidebar.html" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-single-left-sidebar.html">Detalle de articulo</a></li>
-                            </ul>
+                        <li >
+                            <a routerLink="blog"  style="color: #fff;">BLOG</a>
                         </li>
                         <li>
-                            <a href="contact.html">contacto</a>
+                            <a routerLink="contacto"  style="color: #fff;">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
