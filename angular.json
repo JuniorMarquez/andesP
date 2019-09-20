@@ -28,7 +28,9 @@
     
             ],
             "scripts": [
-            // "node_modules/jquery/dist/jquery.min.js"
+ // "node_modules/jquery/dist/jquery.min.js"
+            //"src/assets/themekit/scripts/glide.min.js",
+           // "src/assets/themekit/scripts/parallax.min.js"
             ]
           },
           "configurations": {

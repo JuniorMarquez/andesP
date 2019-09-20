@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//declare var $: any;
+declare var $: any;
 
 @Component({
   selector: 'app-destinos',
@@ -11,6 +11,7 @@ export class DestinosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+ $.getScript('assets/themekit/scripts/glide.min.js');
   }
 
 }

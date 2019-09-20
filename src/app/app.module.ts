@@ -7,8 +7,10 @@ import { HttpModule } from '@angular/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ArchwizardModule } from 'angular-archwizard';
 
-//declare var $: any;
+import * as $ from 'jquery';
 
+window["$"] = $;
+window["jQuery"] = $;
 
 
 

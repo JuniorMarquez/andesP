@@ -10,6 +10,8 @@ export class VitrinaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+   $.getScript('assets/themekit/scripts/glide.min.js');
+
   }
 
 }
